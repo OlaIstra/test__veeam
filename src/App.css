@@ -1,0 +1,15 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px
+}
+
+.react-tabs__tab-list {
+    margin-bottom: 0;
+}
+
+.react-tabs__tab-panel {
+    padding: 15px;
+    border: 1px solid grey;
+    border-top: none;
+}

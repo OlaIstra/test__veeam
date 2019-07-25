@@ -1,0 +1,13 @@
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.radio__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+

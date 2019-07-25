@@ -1,0 +1,23 @@
+{
+  "key": "unique",
+  "formTitle": "Veeam Form",
+  "tags": [
+    { "tag": "button", "keyID": "btnSbt", "title": "send", "clName": "primary" },
+    { "tag": "button", "keyID": "btnOk", "title": "ok",  "clName": "secondary" },
+    { "tag": "button", "keyID": "btnCancel", "title": "cancel",  "clName": "danger" },
+    { "tag": "text", "keyID": "text1", "label": "text", "type": "text", "props": { "required": true } },
+    { "tag": "number", "keyID": "number1", "label": "number", "type": "number", "props": { "required": true } },
+    { "tag": "date", "keyID": "date1", "label": "date", "type": "date", "props": { "required": true } },
+    { "tag": "radio",
+      "keyID": "radio",
+      "label": "radio",
+      "type": "radio",
+      "options": [
+        { "keyID": "radio1", "label": "radio1", "name": "radio", "value": "radio1" },
+        { "keyID": "radio2", "label": "radio2", "name": "radio", "value": "radio2" }
+      ]
+    },
+    { "tag": "checkbox", "keyID": "checkbox", "label": "checkbox", "type": "checkbox", "props": { "checked": true }  },
+    { "tag": "textarea", "keyID": "textarea", "label": "textarea", "type": "text", "props": { "rows": "10", "cols": "50" } }
+  ]
+}
